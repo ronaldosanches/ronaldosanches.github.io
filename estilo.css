@@ -1,0 +1,234 @@
+﻿body {
+    background-color: #1a2138; /*333333*/
+    margin: 0;
+    padding: 0;
+}
+
+
+.margem980px{
+    text-align: center;
+    max-width: 980px;
+    margin-top:0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* classes de texto */
+
+.textt {
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    font-family: 'Baloo', 'Arial';
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+.textst {
+    margin: 10px;
+    padding-top: 30px;
+    color:white;
+    font-size: 150%;
+    font-weight: 400;
+    text-shadow: 1px 1px black;
+}
+
+.textn {
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Montserrat', Arial !important;
+    font-weight: 200;
+}
+
+.textr {
+    color: white;
+    text-align: center;
+    font-size: 80%;
+    font-family: 'Montserrat', 'Arial' !important;
+    font-weight: 200;
+}
+
+/* fim das classes de texto - modificadores são tratados a seguir */
+
+/* menu horizontal no topo */
+
+.pure-menu-horizontal {
+    text-align: center;
+    width: 100%;
+    padding-top: 0px;
+    margin: 0;
+}
+.pure-menu-horizontal ul {
+    width: 100%;
+    height: 100%;
+}
+
+.pure-menu-horizontal a {
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+/* fim do menu horizontal no topo*/
+
+
+
+/* topo */
+
+#home {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+     background-position: center 0px;
+    padding-bottom: 580px; /* tamanho vertical do png*/
+    background-image: url('imgtopo.png');
+}
+
+.containertitulosubtitulo {
+    text-align: center;
+    
+}
+
+.titulo {
+    margin-top:20px;
+    margin-bottom: -10px;
+    padding: 0;
+}
+
+.subtitulo {
+    font-size: 89%;
+    font-weight: 0;
+    text-shadow: 1px 1px black;
+}
+
+
+/* fim do topo */
+
+
+/* servicos */
+
+.pure-g .pure-u-1 {
+    text-align: center;
+}
+
+.pure-g .pure-g .pure-u-1 .textr{
+    margin-top: 2px;
+    color:white;
+    text-shadow: -1px 0 crimson, 0 1px crimson, 1px 0 crimson, 0 -1px crimson;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.pure-g .pure-g .pure-u-1 img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.sobretudo .pure-g {
+    width: 100%;
+text-align: center;
+}
+
+/* fim do servicos */
+
+
+/*trabalhos*/
+
+.margemthumbs{
+    text-align: center;
+    max-width: 700px;
+    margin-top:0;  
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-bezel img {
+    width: 40%;
+    height: auto;
+}
+
+/*fim dos trabalhos*/
+
+
+/*contato*/
+
+.observatorio {
+    background: black;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+     background-position: center 0px;
+    height: 297px; /* tamanho vertical do png*/
+    background-image: url('fundo2.png');
+}
+
+.contato {
+    margin: 0;
+    background-color: #22740f;
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+.iconcontato {
+    width: 20px;
+    height: auto;
+}
+
+
+
+/*fim dos contatos*/
+
+/*espaço entre seções*/
+
+.espaco{
+    height: 100px;
+}
+
+
+#transicaoazulpreto {
+    margin: 0;
+    height: 400px;
+    background: -webkit-linear-gradient(#1a2138, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1a2138, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1a2138, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1a2138, black); /* Standard syntax */
+}
+
+
+/* fim espaco entre secoes */
+/* rodape */
+
+
+.rodape {
+margin:0px;
+padding-top:5px;
+    padding-bottom: 5px;
+background-color:black;
+}
+
+.rodape textr {
+font-size:70%;
+text-align:right;
+margin-right:10px;
+}
+
+.meioscontato a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.meioscontato {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.meioscontato p a {
+    margin-top: -15px;
+}
+
+.meioscontato p img {
+    vertical-align: center;
+}
+
+/* fim do rodape */
